@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Header - Assignment Week 4</title>
+	<style type="text/css">
+
+
+		p:first-letter {
+			font-size: xx-large; 
+			float-left; 
+			line-height: 2px;
+			color: red;
+		}
+
+		.square1, .square2 {
+			float: left; 
+			padding: 15px;
+			box-sizing: border-box;
+			border: solid black thin;
+		}
+
+		.square1 {
+			width: 25%;
+			background: powderblue;
+			font-size: 16px;
+			height: 582px;
+		}
+
+		a {
+			font-size: 13px;
+			color: darkblue;
+		}
+
+		a .highlight:hover {
+			color: red;
+		}
+
+		.square2 {
+			width: 75%;
+			padding-left: 6px;
+			padding-right: 6px;
+			padding-bottom: 4px;
+			background-color: whitesmoke;
+			font-size: 16px
+		}
+
+		#upper {background-color: lightgrey}
+
+		#inside {
+			background-color: #acb3b9; padding-left: 1px;
+		}
+		#input {
+			padding-left: 3px;
+			padding-right: 3px;
+		}
+
+		#footer {
+			background: #acb3b9;            
+			font-size: 14px;
+			border: solid black thin;
+			font-family: sans-serif; 
+			display: flex;
+			justify-content: center;
+			height: 50px;
+			align-items: center;
+
+	</style>
+</head>
+<body>
+	<h2 style="font-family: sans-serif;"><center>My Header</center></h2>
+	<form action="http://www.WebsiteDevelopmentBook.com/FormEcho.php" method="post">
+	<div class="square1">
+		<input type="text" name="Username" placeholder="Username..." id="input"><br>
+		<input type="password" name="password" placeholder="Password..." id="input" style="margin-top: 5px"><br>
+		<button type="submit" style="margin-top: 5px">Login</button> <button type="submit" style="margin-top: 5px">Daftar</button>
+		<br>
+		<br>
+		<ul style="margin-top: 0px; padding-left: 20px; font-family: sans-serif;">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Access</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</div>
+	</form>
+
+	<div class="square2" style="font-family: arial; flex-direction: column">
+		<p class="first-letter">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla commodo ullamcoper sagittis. Sed tempus, libero quis blandit consectetur, ligula mauris ornare est, a fringilla nulla quam id augue. Ut sapien nisl, aliquet malesuada mattis non, lacinia eget est. Phasellus eget pharetra erat. Nunc sed bibendum diam. Ut ullamcorper, lectus tristique cursus dapibus, tellus metus ornae turpis, varius faucibus lacus elit sed tortor. In quis velit ex. Integer sed convallis mi.
+		</p>
+
+		<div style="border: solid black thin; display: flex; padding-bottom: 2px; background-color: whitesmoke">
+			<div style="border: solid black thin; font-family: arial; width: 32.5%; background-color: #acb3b9">
+				<div style="flex-direction: column; background-color: #acb3b9; border: black thin">
+					<div id="upper" style="padding: 1px; margin-bottom: 0px"><b>First Paragraph</b></div>
+					<div>
+						<p id="inside" class="first-letter" style="padding-top: 10px">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla commodo ullamcoper sagittis. Sed tempus, libero quis blandit consectetur, ligula mauris ornare est, a fringilla nulla quam id augue. Ut sapien nisl, aliquet malesuada mattis non, lacinia eget est. Phasellus eget pharetra erat. Nunc sed bibendum diam. Ut ullamcorper, lectus tristique cursus dapibus, tellus metus ornae turpis, varius faucibus lacus elit sed tortor. In quis velit ex. Integer sed convallis mi.</p>
+					</div>
+				</div>
+			</div>
+
+			<div style="border: solid black thin; font-family: arial; width: 32.5%; margin-left: 7px; background-color: #acb3b9">
+				<div style="flex-direction: column; background-color:#acb3b9; border: black thin">
+					<div id="upper" style="padding: 1px"><b>Second Paragraph</b></div>
+					<div>
+						<p id="inside" class="first-letter" style="padding-top: 10px" >
+						Mauris sed nunc enim. Quisque a fermentum libero, pellentesque feugiat turpis. Sed semper vestibulum ultricies. Suspendisse aliquam elit vel lorem luctus, quis ornare quam volutpat. Etiam molestie mi lectus, nec viverra urne tempus. Vivamus ac ornare dolor, vel tempus urna. Maecenas pallentesque lacus vel lectus facilisis, sed vulputate dolor malesuada. Nullam ut tristique lorem, a pulvinar magna.</p>
+					</div>
+				</div>
+			</div>
+
+			<div style="border: solid black thin; font-family: arial; width: 33%; margin-left: 7px; background-color: #acb3b9">
+				<div style="flex-direction: column; background-color:#acb3b9; border: black thin">
+					<div id="upper" style="padding: 1px"><b>Third Paragraph</b></div>
+					<div>
+						<p id="inside" class="first-letter" style="padding-top: 10px" >
+						Curabitur vitae ipsum a ligula facilisis pellentesque. Phasellus seb nibh nec lacus sagittis mattis. Praesent dictum accumsan tortor vitae tempor. Morbi id dolor a magna accumsan difnissim. In bibendum posuere sodales. In hac habitasse platea dictumst. Quisque rutrum ante nisl, eget ullamcorper enim tempus vel. Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div style="border: solid black thin; display: flex; padding-bottom: 1px">
+			<div style="border: solid black thin; background-color: #acb3b9; width: 50%">
+				<p id="inside" class="first-letter" style="padding-top: 10px;">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla commodo ullamcoper sagittis. Sed tempus, libero quis blandit consectetur, ligula mauris ornare est, a fringilla nulla quam id augue. Ut sapien nisl, aliquet malesuada mattis non, lacinia eget est. Phasellus eget pharetra erat. Nunc sed bibendum diam. Ut ullamcorper, lectus tristique cursus dapibus, tellus metus ornae turpis, varius faucibus lacus elit sed tortor. In quis velit ex. Integer sed convallis mi.
+				</p>
+			</div>
+			<div style="margin-left: 6px; border: solid black thin; background-color: #acb3b9; width: 50%">
+				<p id="inside" class="first-letter" style="padding-top: 10px">
+					Mauris sed nunc enim. Quisque a fermentum libero, pellentesque feugiat turpis. Sed semper vestibulum ultricies. Suspendisse aliquam elit vel lorem luctus, quis ornare quam volutpat. Etiam molestie mi lectus, nec viverra urne tempus. Vivamus ac ornare dolor, vel tempus urna. Maecenas pallentesque lacus vel lectus facilisis, sed vulputate dolor malesuada. Nullam ut tristique lorem, a pulvinar magna. Aenean et mattis metus, eget dictum dui. Donec ut sem cursus elit molestie sollicitudin.
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	<div id="footer" style="border: solid black thin">
+		<b>my footer</b>
+	</div>
+</body>
+</html>
